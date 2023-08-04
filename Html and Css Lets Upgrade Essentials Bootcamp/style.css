@@ -1,0 +1,63 @@
+body
+{
+background-color:yellow;
+}
+.first-section
+{
+background-color: brown;
+border-color: rgb(0, 136, 255);
+border-radius: 25px;
+border-style: groove;
+border-width: 5px;
+margin: auto;
+padding:12px;
+width: 200px;
+height: 150px; 
+}
+.second-section
+{
+background-color: blueviolet;
+border-color: rgb(0, 136, 255);
+border-radius: 25px;
+border-style: groove;
+border-width: 5px;
+margin: auto;
+padding:12px;
+width: 200px;
+height: 150px;
+}
+.third-section
+{
+background-color: rgb(155, 42, 165);
+border-color: rgb(0, 136, 255);
+border-radius: 25px;
+border-style: groove;
+border-width: 5px;
+margin: auto;
+padding:12px;
+width: 200px;
+height: 150px;
+}
+#first-id
+{
+color:rgb(255, 255, 255);
+}
+#second-id
+{
+color:rgb(106, 224, 76);
+}
+#third-id
+{
+color:rgb(233, 235, 126);
+}
+h1
+{
+font-family:sans-serif;
+text-align: center;
+color:palevioletred;
+}
+h2
+{
+font-family:monospace;
+color:rgb(0, 255, 221);
+}
