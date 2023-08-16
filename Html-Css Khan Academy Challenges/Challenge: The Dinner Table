@@ -1,0 +1,49 @@
+/*
+Add rows of meals
+
+This is a webpage to show the dinner menu for a restaurant. We've created the initial table with three columns for the meal, ingredients, and price. Now, add three rows of data to the table, one row for each meal.
+*/
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Challenge: The dinner table</title>
+    </head>
+    <body>
+    
+    <h1>Our dinner menu</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Meal</th>
+                    <th>Ingredients</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                   <td>Beef Parota</td>
+                   <td>Refined flour and Cow meat</td>
+                   <td>40rs</td>
+               </tr>
+               <tr>
+                   <td>Briyani</td>
+                   <td>Fennel seeds, ghee, nutmeg, mace, pepper, cloves, cardamom, cinnamon, bay leaves, coriander, mint, ginger, onions, tomatoes, green chilies, and garlic.</td>
+                   <td>150rs</td>
+               </tr>
+               <tr>
+                   <td>Puttu Icecream</td>
+                   <td>Ice, milk fat, milk protein, sugar</td>
+                   <td>250rs</td>
+               </tr>
+               <tr>
+                   <td>Kowsa</td>
+                   <td>Amount of cilantro, onion, green chili, sprinkle roasted chick pea flour, fried crushed red chili, fried garlic, squeeze the lime and crushed kettle chips and fried spaghetti.</td>
+                   <td>70rs</td>
+               </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
