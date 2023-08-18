@@ -1,0 +1,26 @@
+/*
+Title your poem.
+
+To practice the basics of HTML, let's have you write and markup a poem. To start off with, what will the title of your poem be?
+
+Using the <h1> tag we learned about, add a heading for your poem. This will be your title.
+*/
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: Write a Poem</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+     <h1>Motivational Poem</h1>
+       <p>
+          My mind to me a kingdom is;<br>
+          Such present joys therein I find,<br>
+          That it excels all other bliss<br>
+          That earth affords or grows by kind:<br>
+          Though much I want that most would have,<br>
+          Yet still my mind forbids to crave…
+       </p>
+    </body>
+</html>
