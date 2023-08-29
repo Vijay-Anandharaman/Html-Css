@@ -1,0 +1,104 @@
+/*
+A "blog" (or "web log") is an online journal, which one or multiple people update on a frequent basis, like daily, weekly, or monthly. Many new programmers keep blogs to document their journey
+to becoming a programmer, with updates on what they've learned and what they've made.
+
+There are many "blogging engines" out there, like WordPress and Blogger, but in this project, you'll make your own blog using HTML and CSS. It should have at least 2 entries, and the table of
+contents should internally link to each entry. Use CSS text properties to style your blog - like changing the font family, line height, and font styles of various sections.
+
+If you like your blog, then you could use it to document your journey here - make it a featured project on your profile, then people that visit your profile will get to read about your journey!
+*/
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project : Blog</title>
+        <style>
+        body
+        {
+            background-color:yellow;
+        }
+            #fav-kowsa
+            {
+                font-family:Monospace;
+                font-style:normal;
+                line-height:1.5;
+                font-size:12px;
+                color:red;
+            }
+            #fav-briyani
+            {
+                font-family:Monospace;
+                font-style:normal;
+                line-height:1.5;
+                font-size:12px;
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>My Favorite's Food blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href = "#fav-kowsa">Kowsa</a></li>
+            <li><a href = "#fav-briyani">Briyani</a></li>
+        </ul>
+        
+        <h2>About Kowsa Food Post</h2>
+
+        <h6>Posted on 22 July 2023</h6>
+
+        <table border>
+            <thead>
+                <tr>
+                    <th>TIME</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>6:30PM</td>
+                    <td>100Grams</td>
+                    <td>70Rs</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/pasta.png" width="300" alt="plates of kowsa">
+
+        <p id="fav-kowsa">The dish, known as ohn no khao swè, originated in Burma, and came to the Memon community of Pakistan who adapted this dish, likely coinciding with the emigration of
+        South Asians from Burma in the 1960s, and is now a representative Memon dish now known as khausa. The meaning of <strong>Khausa</strong> is happiness, delight, pleasure, mirth, joy,
+        rejoicings, cheerfulness, gladness, gaiety. We want to the kowsa shop in the evening time. I ate the kowsa with my friends.</p>
+            
+          <h2>About Briyani Food Post</h2>
+
+          <h6>Posted on 23 July 2023</h6>
+
+          <table border>
+           <thead>
+                <tr>
+                    <th>TIME</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12:30PM</td>
+                    <td>300Grams</td>
+                    <td>210Rs</td>
+                </tr>
+           </tbody>
+         </table>
+
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/fish_grilled-snapper.png" width="300" alt="plates full of briyani">
+
+        <p id ="fav-briyani">It is said that Mumtaz once visited the army barracks and found the <em><strong>Mughal</strong></em> soldiers looking weak and undernourished. She asked the chef to
+        prepare a special dish that combined meat and rice to provide balanced nutrition to the soldiers – and the result was biryani of course. This meal has a deep taste and is filled with flavour.
+        It is a well-known dish from the Indian subcontinent that is enjoyed worldwide. Basmati rice is combined with various spices and cooked uniquely to make biryani.</p>
+         
+    </body>
+</html>
